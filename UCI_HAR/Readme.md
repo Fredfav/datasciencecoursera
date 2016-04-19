@@ -6,6 +6,13 @@ a tidy dataset. The raw dataset used for this assignment is a University Califor
 Activity Recognition study. The details of the study can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+#Files in project
+README.md - this file
+codebook.md - code book describing the data and the processing done to the data
+UCI HAR Data - data set used in this project. See code book and readme.txt for license information
+run_analysis.R - R script to tidy the data and produce output tidy.txt
+Tidy_Dataset_of_UCI_HAR_Data.txt - CSV file that contains a subset of the tidy data.
+
 #Obtaining the raw data
 The script will look for the zip file containing the raw data in your working directory. If it does
 not exist it will download the data and unzip it in the current working directory.
